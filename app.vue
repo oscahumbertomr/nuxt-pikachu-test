@@ -34,11 +34,10 @@
       </audio>
     </div>
 
-    
-    <div v-on:click="audioKyaa.play" class="button">
+    <div v-on:click="audioUwu.play" class="button">
       XD
-      <audio controls src="Kyaa.mp4" ref="audioKyaa" v-show="false">
-        <a href="GymLeader.mp4"> Download audio </a>
+      <audio controls src="uwu.mp4" ref="audioUwu" v-show="false">
+        <a href="uwu.mp4"> Download audio </a>
       </audio>
     </div>
   </div>
@@ -66,6 +65,7 @@ const audioPikapi = ref();
 const audioAmongUs = ref();
 const audioGymLeader = ref();
 const audioKyaa = ref();
+const audioUwu = ref();
 
 onMounted(() => {
   console.log('sdfsdfsd');
