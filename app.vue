@@ -5,4 +5,7 @@
   <audio controls src="sound2.mp4">
     <a href="sound2.mp4"> Download audio </a>
   </audio>
+  <audio controls src="AmongUs.mp4">
+    <a href="AmongUs.mp4"> Download audio </a>
+  </audio>
 </template>
