@@ -33,6 +33,14 @@
         <a href="GymLeader.mp4"> Download audio </a>
       </audio>
     </div>
+
+    
+    <div v-on:click="audioKyaa.play" class="button">
+      XD
+      <audio controls src="Kyaa.mp4" ref="audioKyaa" v-show="false">
+        <a href="GymLeader.mp4"> Download audio </a>
+      </audio>
+    </div>
   </div>
 </template>
 
