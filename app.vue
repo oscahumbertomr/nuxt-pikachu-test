@@ -48,7 +48,7 @@
   text-align: center;
   flex: 30%;
   border-style: solid;
-      cursor: pointer;
+  cursor: pointer;
 }
 </style>
 
